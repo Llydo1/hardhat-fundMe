@@ -1,7 +1,7 @@
 {
   "language": "Solidity",
   "sources": {
-    "contracts/tests/MockAggregatorV3Interface.sol": {
+    "contracts/tests/MockV3Aggregator.sol": {
       "content": "//SPDX-License-Identifier: MIT\n\npragma solidity ^0.6.0;\nimport \"@chainlink/contracts/src/v0.6/tests/MockV3Aggregator.sol\";\n"
     },
     "@chainlink/contracts/src/v0.6/tests/MockV3Aggregator.sol": {
@@ -35,7 +35,9 @@
           "storageLayout",
           "evm.gasEstimates"
         ],
-        "": ["ast"]
+        "": [
+          "ast"
+        ]
       }
     },
     "metadata": {
